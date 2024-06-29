@@ -1,5 +1,5 @@
 # Trabajo Visión Computacional
-    “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
+          “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
     CURSO:
         Visión Computacional
     INTEGRANTES:
