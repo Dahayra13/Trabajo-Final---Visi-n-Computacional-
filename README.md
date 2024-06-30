@@ -1,15 +1,20 @@
 # Trabajo Visión Computacional
-          “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
+                    “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
+   
     CURSO:
-        Visión Computacional
+    Visión Computacional
+      
     INTEGRANTES:
     Huarcaya Pumacayo, Victor Nikolai
     More Ayay, Dahayra Xiomara
     Lima Quispe, Alexandra Nancy
     Huarauya Fabian, Josue Eduardo
+
+    
     PROFESOR:
-      Montalvo Garcia, Peter Jonathan
+    Montalvo Garcia, Peter Jonathan
                   2024 - I
+                  
 # YOLOv9
 
 Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
