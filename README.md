@@ -3,10 +3,10 @@
     CURSO:
         Visión Computacional
     INTEGRANTES:
-        Huarcaya Pumacayo, Victor Nikolai
-        More Ayay, Dahayra Xiomara
-        Lima Quispe, Alexandra Nancy
-        Huarauya Fabian, Josue Eduardo
+ Huarcaya Pumacayo, Victor Nikolai
+More Ayay, Dahayra Xiomara
+Lima Quispe, Alexandra Nancy
+Huarauya Fabian, Josue Eduardo
     PROFESOR:
       Montalvo Garcia, Peter Jonathan
                   2024 - I
