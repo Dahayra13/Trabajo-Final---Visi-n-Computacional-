@@ -24,6 +24,9 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 Github: 
 https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional- 
 
+Recursos en Roboflow:
+https://universe.roboflow.com/trash-sorter/synthetic-trashes/dataset/2#
+
 Colab:
 https://colab.research.google.com/drive/1f77N-iooEK_Z09bRh6lAPqcaKKWAjXXv#scrollTo=PHgTdsLNiMln 
 
