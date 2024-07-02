@@ -1,6 +1,7 @@
 # Trabajo Visión Computacional
                              “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
-   
+   ![image](https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/assets/119473082/296d322f-9eff-4bfd-9d24-6326e4b2aa65)
+
     CURSO:
     Visión Computacional
       
