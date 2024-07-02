@@ -172,7 +172,7 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 
 ```
 <p align="center">
-  <img src="https://github.com/Victor-Nikolai/Recursos/blob/dbc2b65bf0937efa46c84ef85814fe0cc177a8ed/Imagen%201.jpg" alt="image">
+  <img src="https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg?raw=true" alt="image">
 </p>
 
 
