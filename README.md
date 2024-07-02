@@ -539,7 +539,7 @@ Image(filename=f"{HOME}/yolov9/runs/train/exp/results.png", width=1000)
   <img src="https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/blob/main/Imagenes/Metricas.png" alt="image">
 </p>
 
-```
+```shell
 # Muestra la matriz de confusión generada durante el entrenamiento, ajustando el ancho a 1000 píxeles
 from IPython.display import Image
 Image(filename=f"{HOME}/yolov9/runs/train/exp/confusion_matrix.png", width=1000)
