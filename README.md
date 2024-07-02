@@ -33,6 +33,14 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 - *Enlace del Informe*: [Informe](https://docs.google.com/document/d/1JrrReoecM7GFBO5QgYkxAQIJv6m7qVKy3WQm6zioSpw/edit)
 
 
+## Enlaces del Proyecto
+
+## Instrucciones para ejecutar el proyecto
+- Python 3.7 o superior
+- Google Colab cambiar "Entorno de ejecución" de CPU a GPU
+- Visual Studio Code
+- Buscar un dataset con clases ya establecidas
+
 <div align="center">
     <a href="./">
         <img src="https://lirp.cdn-website.com/777d988b/dms3rep/multi/opt/acumulacio-n+basura+1-1920w.jpeg" width="79%"/>
