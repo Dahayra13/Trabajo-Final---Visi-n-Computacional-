@@ -39,12 +39,14 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 - Visual Studio Code
 - Buscar un dataset con clases ya establecidas
 
-<div align="center">
-    <a href="./">
-        <img src="https://lirp.cdn-website.com/777d988b/dms3rep/multi/opt/acumulacio-n+basura+1-1920w.jpeg" width="79%"/>
-    </a>
-</div>
-
+## Clases utilizadas
+- cardboard
+- combustible waste
+- glass
+- metal
+- paper
+- plastic
+- trash
 
 ## Instalación De Recursos y Directorio
 Prestar atención a cada paso para que se pueda entrenar y poner en práctica el algoritmo.
