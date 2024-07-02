@@ -40,7 +40,7 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 - Python 3.7 o superior
 - Google Colab cambiar "Entorno de ejecución" de CPU a GPU
 - Visual Studio Code
-- Buscar un dataset con clases ya establecidas
+- Buscar un dataset con clases ya establecidas.
 
 ## Clases utilizadas
 - cardboard
