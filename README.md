@@ -54,7 +54,6 @@ Prestar atención a cada paso para que se pueda entrenar y poner en práctica el
 |  No running processes found                                                           |
 +---------------------------------------------------------------------------------------+
 
-
 # Importa la biblioteca os para interactuar con el sistema operativo
 import os
 
@@ -102,8 +101,21 @@ Resolving deltas: 100% (165/165), done.
 ``` shell
 # Instala la biblioteca roboflow para manejo de datasets
 !pip install -q roboflow
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.6/75.6 kB 3.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.7/178.7 kB 11.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.5/54.5 kB 7.5 MB/s eta 0:00:00
 
+```
 
+## Descargando Yolov9
+<details><summary> <b>Expand</b> </summary>
+
+``` shell
+# Descarga los archivos de pesos del modelo YOLOv9 y los guarda en el directorio {HOME}/weights
+!wget -P {HOME}/weights -q https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt
+!wget -P {HOME}/weights -q https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-e.pt
+!wget -P {HOME}/weights -q https://github.com/WongKinYiu/yolov9/releases/download/v0.1/gelan-c.pt
+!wget -P {HOME}/weights -q https://github.com/WongKinYiu/yolov9/releases/download/v0.1/gelan-e.pt
 
 ```
 
