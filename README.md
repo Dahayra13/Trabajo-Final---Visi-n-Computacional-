@@ -172,7 +172,7 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 
 ```
 <p align="center">
-  <img src="https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg?raw=true" alt="image">
+  <img src="https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/blob/main/Imagenes/descarga%20(1).jfif" alt="image">
 </p>
 
 ## Problemas encontrados y cómo fueron solucionados por el equipo
