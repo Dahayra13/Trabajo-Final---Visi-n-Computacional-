@@ -29,6 +29,7 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
   <img src="https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/assets/119473082/8e61e261-460f-400e-bc42-2fb800895cca" alt="image">
 </p>
 
+
 ## Enlaces del Proyecto
 
 - *Enlace al repositorio de GitHub*: [Repositorio en GitHub](https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-)
