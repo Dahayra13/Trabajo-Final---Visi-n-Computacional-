@@ -19,7 +19,17 @@
 # INICIO DEL PROYECTO
 
 El presente proyecto de investigación ha logrado desarrollar una solución de visión artificial basada en el modelo YOLO v9, con el objetivo de detectar y cuantificar los diferentes tipos de residuos sólidos inorgánicos presentes en un video grabado en un entorno rural. Entre los hallazgos más relevantes, se destaca que el uso del modelo YOLO v9 ha probado ser efectivo en la tarea de detección y clasificación de residuos como plástico, botellas, papel, cartón y vidrio, alcanzando altos niveles de precisión.
-https://universe.roboflow.com/trash-sorter/synthetic-trashes/dataset/2
+Github: 
+https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional- 
+
+Colab:
+https://colab.research.google.com/drive/1f77N-iooEK_Z09bRh6lAPqcaKKWAjXXv#scrollTo=PHgTdsLNiMln 
+
+Video:
+https://drive.google.com/drive/folders/1ihkDUGI_Dft0ENr_GMcNu3HI7g0ivjIN?usp=sharing 
+
+Carpeta Zip: https://drive.google.com/file/d/1khsADRka8d5Jef6fQPqbqyit0p9TjtaV/view?usp=sharing 
+
 <div align="center">
     <a href="./">
         <img src="https://lirp.cdn-website.com/777d988b/dms3rep/multi/opt/acumulacio-n+basura+1-1920w.jpeg" width="79%"/>
