@@ -177,6 +177,7 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 
 ## Problemas encontrados y cómo fueron solucionados por el equipo
 - Cambio del entorno de ejecución del Colab: El equipo migró el proyecto a un entorno local para superar las limitaciones de recursos en Colab y optimizar el entrenamiento de YOLOv9.
+- Baja velocidad y rendimiento del Google Colab: Se trasladó el proyecto a un entorno local con hardware más potente, como una GPU dedicada, para mejorar la velocidad y rendimiento del modelo YOLOv9 durante el entrenamiento.
 
 
 
