@@ -26,7 +26,7 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 </div>
 
 
-## Instalación
+## Instalación De Recursos y Directorio
 Prestar atención a cada paso para que se pueda entrenar y poner en práctica el algoritmo.
 
 <details><summary> <b>Expand</b> </summary>
@@ -49,11 +49,22 @@ print(HOME)
 </details>
 
 
-## Evaluation
+## Clonación de repositorio y del modelo
 
 
+<details><summary> <b>Expand</b> </summary>
 
+``` shell
+# Clona el repositorio de YOLOv9 desde GitHub
+!git clone https://github.com/SkalskiP/yolov9.git
 
+# Cambia el directorio actual al clon del repositorio YOLOv9 (comentado para compatibilidad de Python)
+ %cd yolov9
+
+# Instala las dependencias necesarias desde el archivo requirements.txt
+!pip install -r requirements.txt -q
+
+```
 
 
 
