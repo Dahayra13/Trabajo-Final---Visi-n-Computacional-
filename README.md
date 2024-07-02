@@ -26,9 +26,9 @@ Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Program
 </div>
 
 
- Instalación
+## Instalación
+Prestar atención a cada paso para que se pueda entrenar y poner en práctica el algoritmo.
 
-Prestar atención a cada paso.
 <details><summary> <b>Expand</b> </summary>
 
 ``` shell
