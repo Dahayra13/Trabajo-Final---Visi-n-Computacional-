@@ -175,7 +175,7 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
   <img src="https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg?raw=true" alt="image">
 </p>
 
-
+## Problemas encontrados y cómo fueron solucionados por el equipo
 
 
 
