@@ -34,7 +34,6 @@ Prestar atención a cada paso para que se pueda entrenar y poner en práctica el
 ``` shell
 # Muestra la información de la GPU de NVIDIA instalada, útil para verificar la disponibilidad de recursos.
 !nvidia-smi
-Tue Jul  2 02:50:37 2024       
 +---------------------------------------------------------------------------------------+
 | NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
 |-----------------------------------------+----------------------+----------------------+
@@ -64,7 +63,7 @@ HOME = os.getcwd()
 
 # Imprime el directorio de trabajo actual
 print(HOME)
-
+/content
 ```
 
 </details>
@@ -82,7 +81,18 @@ print(HOME)
 
 # Instala las dependencias necesarias desde el archivo requirements.txt
 !pip install -r requirements.txt -q
-
+Cloning into 'yolov9'...
+remote: Enumerating objects: 325, done.
+remote: Counting objects: 100% (218/218), done.
+remote: Compressing objects: 100% (62/62), done.
+remote: Total 325 (delta 159), reused 156 (delta 156), pack-reused 107
+Receiving objects: 100% (325/325), 2.23 MiB | 45.77 MiB/s, done.
+Resolving deltas: 100% (165/165), done.
+/content/yolov9
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.3/207.3 kB 5.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 8.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 44.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.3/21.3 MB 61.5 MB/s eta 0:00:00
 ```
 
 
