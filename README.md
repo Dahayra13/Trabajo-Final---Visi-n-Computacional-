@@ -160,7 +160,9 @@ drwxr-xr-x 1 root root      4096 Jul  2 02:52 ..
 
 # Define la ruta de la imagen de origen para la detección
 SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
-
+<p align="center">
+  <img src="https://github.com/Victor-Nikolai/Recursos/blob/dbc2b65bf0937efa46c84ef85814fe0cc177a8ed/Imagen%201.jpg" alt="Imagen de residuos">
+</p>
 ```
 
 
