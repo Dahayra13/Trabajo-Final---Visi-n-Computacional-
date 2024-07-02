@@ -1,5 +1,5 @@
 # Trabajo Visión Computacional
-                                  “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
+                             “ Detección y Conteo de Residuos Inorgánicos Contaminantes mediante YOLO v9“
    
     CURSO:
     Visión Computacional
@@ -13,7 +13,7 @@
     
     PROFESOR:
     Montalvo Garcia, Peter Jonathan
-                                                           2024 - I
+                                                      2024 - I
           
 # INICIO DEL PROYECTO
 
