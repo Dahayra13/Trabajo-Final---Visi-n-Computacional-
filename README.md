@@ -17,7 +17,7 @@
                   
 # YOLOv9
 
-Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
+El presente proyecto de investigación ha logrado desarrollar una solución de visión artificial basada en el modelo YOLO v9, con el objetivo de detectar y cuantificar los diferentes tipos de residuos sólidos inorgánicos presentes en un video grabado en un entorno rural. 
 
 <div align="center">
     <a href="./">
