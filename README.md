@@ -170,11 +170,10 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 # Ejecuta el script detect.py con los pesos del modelo gelan-c.pt y una confianza mínima de 0.1 para realizar la detección en la imagen
 !python detect.py --weights {HOME}/weights/gelan-c.pt --conf 0.1 --source {HOME}/data/Basura.jpeg --device 0
 
-<p align="center">
-  <img src="https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg" alt="image">
-</p>
-
 ```
+<p align="center">
+  <img src="https://github.com/Victor-Nikolai/Recursos/blob/dbc2b65bf0937efa46c84ef85814fe0cc177a8ed/Imagen%201.jpg" alt="image">
+</p>
 
 
 
