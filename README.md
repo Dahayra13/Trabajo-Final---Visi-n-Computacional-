@@ -15,7 +15,7 @@
     Montalvo Garcia, Peter Jonathan
                   2024 - I
                   
-# YOLOv9
+# INICIO DEL PROYECTO
 
 El presente proyecto de investigación ha logrado desarrollar una solución de visión artificial basada en el modelo YOLO v9, con el objetivo de detectar y cuantificar los diferentes tipos de residuos sólidos inorgánicos presentes en un video grabado en un entorno rural. 
 
