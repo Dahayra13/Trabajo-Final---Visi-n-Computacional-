@@ -161,7 +161,9 @@ drwxr-xr-x 1 root root      4096 Jul  2 02:52 ..
 # Define la ruta de la imagen de origen para la detección
 SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 ```
-![](https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg)
+![](https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg).
+
+
 
 
 
