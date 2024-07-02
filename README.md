@@ -20,20 +20,14 @@
 
 El presente proyecto de investigación ha logrado desarrollar una solución de visión artificial basada en el modelo YOLO v9, con el objetivo de detectar y cuantificar los diferentes tipos de residuos sólidos inorgánicos presentes en un video grabado en un entorno rural. Entre los hallazgos más relevantes, se destaca que el uso del modelo YOLO v9 ha probado ser efectivo en la tarea de detección y clasificación de residuos como plástico, botellas, papel, cartón y vidrio, alcanzando altos niveles de precisión.
 
+## Enlaces del Proyecto
 
-Github: 
-https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional- 
+- *Enlace al repositorio de GitHub*: [Repositorio en GitHub](https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-)
+- *Enlace al notebook de Google Colab*: [Notebook en Google Colab](https://colab.research.google.com/drive/1f77N-iooEK_Z09bRh6lAPqcaKKWAjXXv#scrollTo=PHgTdsLNiMln)
+- *Enlace del drive del video*: [Video](https://drive.google.com/drive/folders/1ihkDUGI_Dft0ENr_GMcNu3HI7g0ivjIN?usp=sharing)
+- *Enlace del los dataset*: [Dataset](https://drive.google.com/file/d/1khsADRka8d5Jef6fQPqbqyit0p9TjtaV/view?usp=sharing )
+- *Enlace del Informe*: [Informe](https://docs.google.com/document/d/1JrrReoecM7GFBO5QgYkxAQIJv6m7qVKy3WQm6zioSpw/edit)
 
-Recursos en Roboflow:
-https://universe.roboflow.com/trash-sorter/synthetic-trashes/dataset/2#
-
-Colab:
-https://colab.research.google.com/drive/1f77N-iooEK_Z09bRh6lAPqcaKKWAjXXv#scrollTo=PHgTdsLNiMln 
-
-Video:
-https://drive.google.com/drive/folders/1ihkDUGI_Dft0ENr_GMcNu3HI7g0ivjIN?usp=sharing 
-
-Carpeta Zip: https://drive.google.com/file/d/1khsADRka8d5Jef6fQPqbqyit0p9TjtaV/view?usp=sharing 
 
 <div align="center">
     <a href="./">
