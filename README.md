@@ -34,6 +34,27 @@ Prestar atención a cada paso para que se pueda entrenar y poner en práctica el
 ``` shell
 # Muestra la información de la GPU de NVIDIA instalada, útil para verificar la disponibilidad de recursos.
 !nvidia-smi
+Tue Jul  2 02:50:37 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off | 00000000:00:04.0 Off |                    0 |
+| N/A   32C    P0              46W / 400W |      2MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
 
 # Importa la biblioteca os para interactuar con el sistema operativo
 import os
@@ -50,8 +71,6 @@ print(HOME)
 
 
 ## Clonación de repositorio y del modelo
-
-
 <details><summary> <b>Expand</b> </summary>
 
 ``` shell
@@ -67,6 +86,16 @@ print(HOME)
 ```
 
 
+## Instalando Roboflow
+<details><summary> <b>Expand</b> </summary>
+
+``` shell
+# Instala la biblioteca roboflow para manejo de datasets
+!pip install -q roboflow
+
+
+
+```
 
 
 
