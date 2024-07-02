@@ -169,11 +169,30 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 
 # Ejecuta el script detect.py con los pesos del modelo gelan-c.pt y una confianza mínima de 0.1 para realizar la detección en la imagen
 !python detect.py --weights {HOME}/weights/gelan-c.pt --conf 0.1 --source {HOME}/data/Basura.jpeg --device 0
+detect: weights=['/content/weights/gelan-c.pt'], source=/content/data/Basura.jpeg, data=data/coco128.yaml, imgsz=[640, 640], conf_thres=0.1, iou_thres=0.45, max_det=1000, device=0, view_img=False, save_txt=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
+YOLOv5 🚀 1e33dbb Python-3.10.12 torch-2.3.0+cu121 CUDA:0 (NVIDIA A100-SXM4-40GB, 40514MiB)
+
+Fusing layers... 
+Model summary: 467 layers, 25472640 parameters, 0 gradients, 102.8 GFLOPs
+image 1/1 /content/data/Basura.jpeg: 640x640 1 suitcase, 5 bottles, 17.0ms
+Speed: 0.6ms pre-process, 17.0ms inference, 793.4ms NMS per image at shape (1, 3, 640, 640)
+Results saved to runs/detect/exp
+
+
+# Muestra la segunda imagen resultante después de la detección, ajustando el ancho a 600 píxeles
+Image(filename=f"{HOME}/yolov9/runs/detect/exp2/Basura.jpeg", width=600)
 
 ```
+
 <p align="center">
   <img src="https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/blob/main/Imagenes/descarga%20(1).jfif" alt="image">
 </p>
+
+
+
+
+
+
 
 ## Problemas encontrados y cómo fueron solucionados por el equipo
 - Cambio del entorno de ejecución del Colab: El equipo migró el proyecto a un entorno local para superar las limitaciones de recursos en Colab y optimizar el entrenamiento de YOLOv9.
