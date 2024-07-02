@@ -29,7 +29,7 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 - *Enlace al repositorio de GitHub*: [Repositorio en GitHub](https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-)
 - *Enlace al notebook de Google Colab*: [Notebook en Google Colab](https://colab.research.google.com/drive/1f77N-iooEK_Z09bRh6lAPqcaKKWAjXXv#scrollTo=PHgTdsLNiMln)
 - *Enlace del drive del video*: [Video](https://drive.google.com/drive/folders/1ihkDUGI_Dft0ENr_GMcNu3HI7g0ivjIN?usp=sharing)
-- *Enlace del los dataset*: [Dataset](https://drive.google.com/file/d/1khsADRka8d5Jef6fQPqbqyit0p9TjtaV/view?usp=sharing )
+- *Enlace del dataset*: [Dataset](https://drive.google.com/file/d/1khsADRka8d5Jef6fQPqbqyit0p9TjtaV/view?usp=sharing )
 - *Enlace del Informe*: [Informe](https://docs.google.com/document/d/1JrrReoecM7GFBO5QgYkxAQIJv6m7qVKy3WQm6zioSpw/edit)
 
 
