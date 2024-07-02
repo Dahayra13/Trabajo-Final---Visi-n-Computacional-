@@ -141,7 +141,27 @@ Resolving deltas: 100% (165/165), done.
 
 ```
 
+## Dirrección de los archivos 
+<details><summary> <b>Expand</b> </summary>
 
+``` shell
+# Lista los archivos descargados en el directorio {HOME}/weights para verificar la descarga
+!ls -la {HOME}/weights
+total 402440
+drwxr-xr-x 2 root root      4096 Jul  2 02:52 .
+drwxr-xr-x 1 root root      4096 Jul  2 02:52 ..
+-rw-r--r-- 1 root root  51508261 Feb 18 12:36 gelan-c.pt
+-rw-r--r-- 1 root root 117203713 Feb 18 12:36 gelan-e.pt
+-rw-r--r-- 1 root root 103153312 Feb 18 12:36 yolov9-c.pt
+-rw-r--r-- 1 root root 140217688 Feb 18 12:36 yolov9-e.pt
+
+# Descarga una imagen de ejemplo desde Roboflow y la guarda en el directorio {HOME}/data
+!wget -P {HOME}/data -q https://media.roboflow.com/notebooks/examples/dog.jpeg
+
+# Define la ruta de la imagen de origen para la detección
+SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
+
+```
 
 
 
