@@ -21,7 +21,7 @@ El presente proyecto de investigación ha logrado desarrollar una solución de v
 
 <div align="center">
     <a href="./">
-        <img src="./figure/performance.png" width="79%"/>
+        <img src="https://lirp.cdn-website.com/777d988b/dms3rep/multi/opt/acumulacio-n+basura+1-1920w.jpeg" width="79%"/>
     </a>
 </div>
 
