@@ -162,8 +162,6 @@ drwxr-xr-x 1 root root      4096 Jul  2 02:52 ..
 SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 ```
 
-![](https://github.com/Victor-Nikolai/Recursos/blob/main/Imagen%201.jpg)
-
 
 
 
