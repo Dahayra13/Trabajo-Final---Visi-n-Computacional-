@@ -176,7 +176,7 @@ SOURCE_IMAGE_PATH = f"{HOME}/Basura.jpeg"
 </p>
 
 ## Problemas encontrados y cómo fueron solucionados por el equipo
-
+- Cambio del entorno de ejecución del Colab: El equipo migró el proyecto a un entorno local para superar las limitaciones de recursos en Colab y optimizar el entrenamiento de YOLOv9.
 
 
 
