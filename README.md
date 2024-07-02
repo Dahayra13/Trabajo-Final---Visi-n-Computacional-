@@ -214,6 +214,8 @@ rf = Roboflow(api_key="owlqaOdSGhLb078zPaIw")
 project = rf.workspace("trash-sorter").project("synthetic-trashes")
 version = project.version(2)
 dataset = version.download("yolov9")
+
+
 Requirement already satisfied: roboflow in /usr/local/lib/python3.10/dist-packages (1.1.33)
 Requirement already satisfied: certifi in /usr/local/lib/python3.10/dist-packages (from roboflow) (2024.6.2)
 Requirement already satisfied: chardet==4.0.0 in /usr/local/lib/python3.10/dist-packages (from roboflow) (4.0.0)
@@ -265,6 +267,8 @@ Extracting Dataset Version Zip to Synthetic-trashes-2 in yolov9:: 100%|███
 --weights {HOME}/weights/gelan-c.pt \
 --cfg models/detect/gelan-c.yaml \
 --hyp hyp.scratch-high.yaml
+
+
 /content/yolov9
 2024-07-02 02:54:52.939719: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 2024-07-02 02:54:52.991276: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
@@ -502,8 +506,40 @@ gelan-c summary: 467 layers, 25417128 parameters, 0 gradients, 102.5 GFLOPs
                  trash        150         24      0.755      0.708      0.743      0.686
 Results saved to runs/train/exp
 
+```
+
+## Lista los archivos en el directorio
+<details><summary> <b>Expand</b> </summary>
+
+``` shell
+# Lista los archivos en el directorio de resultados del entrenamiento para verificar la generación de resultados
+!ls {HOME}/yolov9/runs/train/exp/
+
+confusion_matrix.png				                        PR_curve.png	       val_batch0_pred.jpg
+events.out.tfevents.1719888895.903cec1f3172.2818.0  R_curve.png		       val_batch1_labels.jpg
+F1_curve.png					                              results.csv		       val_batch1_pred.jpg
+hyp.yaml					                                  results.png		       val_batch2_labels.jpg
+labels_correlogram.jpg			                  	    train_batch0.jpg	   val_batch2_pred.jpg
+labels.jpg					                                train_batch1.jpg	   weights
+opt.yaml					                                  train_batch2.jpg
+P_curve.png					                                val_batch0_labels.jpg
+
 
 ```
+
+## Resultados del entrenamiento 
+<details><summary> <b>Expand</b> </summary>
+
+``` shell
+# Muestra la imagen de resultados del entrenamiento, ajustando el ancho a 1000 píxeles
+from IPython.display import Image
+Image(filename=f"{HOME}/yolov9/runs/train/exp/results.png", width=1000)
+
+```
+<p align="center">
+  <img src="https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/blob/main/Imagenes/Metricas.png" alt="image">
+</p>
+
 
 
 
