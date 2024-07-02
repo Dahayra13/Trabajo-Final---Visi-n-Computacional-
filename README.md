@@ -550,6 +550,17 @@ Image(filename=f"{HOME}/yolov9/runs/train/exp/confusion_matrix.png", width=1000)
 </p>
 
 
+```shell
+# Muestra una imagen de ejemplo de las predicciones del lote de validación, ajustando el ancho a 1000 píxeles
+Image(filename=f"{HOME}/yolov9/runs/train/exp/val_batch0_pred.jpg", width=1000)
+
+```
+
+<p align="center">
+  <img src="https://github.com/Dahayra13/Trabajo-Final---Visi-n-Computacional-/blob/main/Imagenes/Entrenamiento.jfif" alt="image">
+</p>
+
+
 
 ## Problemas encontrados y cómo fueron solucionados por el equipo
 - Cambio del entorno de ejecución del Colab: El equipo migró el proyecto a un entorno local para superar las limitaciones de recursos en Colab y optimizar el entrenamiento de YOLOv9.
