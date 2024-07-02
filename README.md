@@ -26,13 +26,27 @@ Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Program
 </div>
 
 
-## Performance 
+ Instalación
 
-MS COCO
+Prestar atención a cada paso.
+<details><summary> <b>Expand</b> </summary>
 
-| Model | Test Size | AP<sup>val</sup> | AP<sub>50</sub><sup>val</sup> | AP<sub>75</sub><sup>val</sup> | Param. | FLOPs |
-| :-- | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**YOLOv9-S**]() | 640 | **46.8%** | **63.4%** | **50.7%** | **7.2M** | **26.7G** |
-| [**YOLOv9-M**]() | 640 | **51.4%** | **68.1%** | **56.1%** | **20.1M** | **76.8G** |
-| [**YOLOv9-C**](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt) | 640 | **53.0%** | **70.2%** | **57.8%** | **25.5M** | **102.8G** |
-| [**YOLOv9-E**](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-e.pt) | 640 | **55.6%** | **72.8%** | **60.6%** | **58.1M** | **192.5G** |
+``` shell
+# Muestra la información de la GPU de NVIDIA instalada, útil para verificar la disponibilidad de recursos.
+!nvidia-smi
+
+# Importa la biblioteca os para interactuar con el sistema operativo
+import os
+
+# Obtiene y guarda el directorio de trabajo actual en la variable HOME
+HOME = os.getcwd()
+
+# Imprime el directorio de trabajo actual
+print(HOME)
+
+```
+
+</details>
+
+
+## Evaluation
